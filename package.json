@@ -1,0 +1,21 @@
+{
+  "name": "phase-1-js-fetch-on-demand-with-forms",
+  "version": "1.0.0",
+  "description": "## Learning Goals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-json": "json-server --watch db.json"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susanirago22/phase-1-js-fetch-on-demand-with-forms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susanirago22/phase-1-js-fetch-on-demand-with-forms/issues"
+  },
+  "homepage": "https://github.com/susanirago22/phase-1-js-fetch-on-demand-with-forms#readme"
+}
