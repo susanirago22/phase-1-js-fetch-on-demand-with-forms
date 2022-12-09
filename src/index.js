@@ -27,22 +27,6 @@ const li1 = document.createElement('li');
 const li2 = document.createElement('li');
 ul.appendChild(li1);
 ul.appendChild(li2);
-let elem1, elem2;
-event.target.children
-// => HTMLCollection(3) [label, input#searchByID, input, searchByID: input#searchByID]
-// document.forms is an HTMLCollection
-
-elem1 = document.forms[0];
-elem2 = document.forms.item(0);
-
-alert(elem1 === elem2); // shows: "true"
-
-elem1 = document.forms.myForm;
-elem2 = document.forms.namedItem("myForm");
-
-alert(elem1 === elem2); // shows: "true"
-
-elem1 = document.forms["named.item.with.periods"];
       });
     });
   }
